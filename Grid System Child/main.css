@@ -1,0 +1,47 @@
+/* 
+  Grid
+  Parent
+  - display: grid | inline-grid
+  - grid-temple-columns => [Numbers Of Colums In] =>  [Px, %, Auto, Repeat(), Mix, Fraction]
+  - grid-temple-rows => [Number Of Rows Height In] => [Px, %, Auto, Repeat(), Mix, Fraction]
+  - gap => [Row Gap] [Column Gap] 
+  - justify-content
+  - align-content
+  - grid-template-areas
+  Child
+  - grid-column
+  - grid-row
+  - grid-area [Grid row start] [Grid column Start] [Grid Row End] [Grid Column End] 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 10px 10px;
+}
+
+.parent div {
+  background-color: darkorchid;
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.parent .one {
+  /* grid-column: 1 / 7; */
+  /* grid-column: span 6; */
+  /* grid-column: 2 / span 3; */
+  /* grid-row: span 2; Same Like grid-column */
+  grid-area: 2 / 2 / 5 / 6;
+}

@@ -1,0 +1,49 @@
+.parent {
+  width: 1000px;
+  height: 2000px;
+  padding: 25px;
+  background-color: #ddd;
+  display: grid;
+  grid-template: 2fr 2fr 2fr 1fr / 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.parent div {
+  padding: 10px;
+  border-bottom: 2px solid red;
+}
+
+.parent .one {
+  grid-column: span 2;
+}
+.parent .three {
+  grid-row: span 3;
+}
+.parent .four {
+  grid-row: span 2;
+}
+.parent .five,
+.parent .six {
+  grid-column: span 2;
+}
+.parent div .bold {
+  font-weight: bold;
+}
+.parent div h3 {
+  color: gray;
+}
+
+.three,
+.five,
+.eight {
+  color: #fff;
+  background-color: #000;
+}
+.one,
+.two,
+.four,
+.six,
+.seven,
+.nine,
+.ten {
+  background-color: #fff;
+}

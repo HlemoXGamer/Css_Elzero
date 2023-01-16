@@ -1,0 +1,41 @@
+/* div {
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+  margin: 10px 20px;
+  display: inline-block;
+  background-color: #ddd;
+  outline: 5px solid black;
+}
+.shape_1 {
+  border: 5px solid red;
+}
+.shape_2 {
+  border-width: 5px;
+  border-style: Solid;
+  border-color: blue green;
+}
+.shape_3 {
+  border-width: 5px;
+  border-style: dashed;
+  border-color: red green blue yellow;
+  ===================================================================
+} */
+/* div {
+  width: 400px;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 20px;
+  text-transform: capitalize;
+  outline: 10px solid #ddd;
+}
+
+.shape_1 {
+  border-left: 5px solid #ea1e63;
+}
+.shape_2 {
+  visibility: hidden;
+}
+.shape_3 {
+  border-left: 5px solid #009788;
+} */

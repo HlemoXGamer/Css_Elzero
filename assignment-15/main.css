@@ -1,0 +1,43 @@
+/* .one {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 36px;
+  border-radius: 50%;
+  position: relative;
+}
+.one::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ea1e63 #ea1e63 #ea1e63 transparent;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.one::before {
+  content: "";
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #2196f3 transparent #2196f3 #2196f3;
+  border-radius: 50%;
+  transition: 0.5s 0.5s;
+}
+
+.one:hover::after {
+  transform: rotate(0.5turn);
+}
+.one:hover::before {
+  transform: rotate(0.5turn);
+} */

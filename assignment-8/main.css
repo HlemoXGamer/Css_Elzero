@@ -1,0 +1,126 @@
+/* div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 20px;
+}
+.red {
+  background-color: red;
+  z-index: 4;
+  left: 35px;
+  top: 20px;
+}
+.green {
+  background-color: green;
+  z-index: 3;
+  left: 20px;
+  top: 8px;
+}
+.blue {
+  background-color: blue;
+  z-index: 2;
+  top: 0;
+}
+.black {
+  background-color: black;
+  z-index: 1;
+  ==================================================================
+} */
+div {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f44236 #2296f2;
+  position: relative;
+  line-height: 1.7;
+  text-align: center;
+}
+span {
+  color: #fff;
+  background-color: #2296f2;
+  padding: 3px 10px;
+  position: absolute;
+}
+.top-left {
+  top: -15px;
+  left: -15px;
+  border-right: 2px solid #f44236;
+}
+.bottom-left {
+  bottom: -15px;
+  left: -15px;
+  border-right: 2px solid #f44236;
+}
+.top-right {
+  top: -15px;
+  right: -15px;
+  border-left: 2px solid #f44236;
+}
+.bottom-right {
+  bottom: -15px;
+  right: -15px;
+  border-left: 2px solid #f44236;
+}
+.parent {
+  width: 400px;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 10px;
+}
+.main {
+  margin-bottom: 10px;
+  background-color: #eee;
+  padding: 10px;
+}
+ul .main {
+  list-style-type: none;
+}
+ol li,
+.special li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+}
+.css {
+  list-style: upper-roman;
+}
+.special li {
+  list-style-position: inside;
+  margin-left: 0;
+}
+.special {
+  padding-left: 0;
+}
+/* table {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  width: 700px;
+  border-bottom: 2px solid #328079;
+}
+table tr th {
+  color: #fff;
+  background-color: #404040;
+  padding: 20px;
+}
+table tr td {
+  background-color: #eee;
+  padding: 15px 20px;
+}
+button {
+  outline: none;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.view {
+  background-color: #03a9f6;
+}
+.delete {
+  background-color: #ea1e63;
+} */

@@ -1,0 +1,32 @@
+/* div.main.red {
+  color: red;
+} */
+
+/* .parent > div:nth-child(2) {
+  color: red;
+} */
+
+/* .parent .baby:only-child {
+  color: red;
+} */
+
+/* body > div[title]:not(.no-need) {
+  color: red;
+} */
+
+/* div:not(.no-need) div:last-child[title="Elzero"]:not(.no-need) {
+  color: red;
+} */
+
+/* div:not(.no-need) div:nth-last-of-type(2) {
+  color: red;
+} */
+
+/* div:not(.no-need, .no-need-2):not(div:nth-child(2))
+  div:nth-last-of-type(2):not(.no-need):not(.no-need + div) {
+  color: red;
+} */
+
+/* div div:not(div:first-child, div:last-child) {
+  color: red;
+} */

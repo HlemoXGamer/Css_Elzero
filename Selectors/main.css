@@ -1,0 +1,44 @@
+/* 
+  Css Selectors
+
+  - * => To Select All Elements In Page
+  - Element => [p, div, h2]
+  - Element OtherElement => To Select Element Inside Another [With the possibility of Elements in between]
+  - .class-name
+  - #id-name
+  - .class-one.class-two => Target element With 2 classes
+  - .class div, .class p => Grouping Selectors
+  - p.class => Element type + class 
+  - .parent > .child => Direct Child
+  - Element + Other Element => [div + p] => p that come after div directly
+  - Element ~ Other Elements => [p ~ div] => all divs that come on the same level of p
+  - [Attribute]
+  - Element[Attribute]
+  - [Attribute = Value]
+  - Element[Attribute = Value] => input[type="submit"]
+  - [Attribute ~= Value] => Contains A Word
+  - [Attribute *= Value] => Contains A String
+  - [Attribute ^= Value] => Start With A String
+  - p:first-child => First Child of his parent [P is The Child]
+  - p:last-child => Last Child of his parent [P is The Child]
+  - p:first-of-type => First p in the parent 
+  - p:last-of-type => Last p in the parent
+  - p:only-child => parent have only 1 child "P"
+  - p:only-of-type => parent have only 1 child of P
+  - p:not(Selector"first-child") => apply Changes to all P except (Selector"first-child")
+  - p:nth-child(3) => apply changes to third p child in parent
+  - p:nth-child(even) => apply changes to even numbers of p child 
+  - p:nth-child(odd) => apply changes to odd numbers of p child 
+  - p:nth-last-child(2) => apply changes to second child from bottom "Reverse Counting"
+  - p:nth-of-type(2) => apply changes to second p child of his parent
+  - p:nth-last-of-type(1) => apply changes to first p child from bottom "Reverse Counting"
+  - :root
+  - :checked
+  - :empty
+  - :disabled
+  - :required
+  - :focus
+  - ::selection
+  - ::placeholder
+
+*/

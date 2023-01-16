@@ -1,0 +1,21 @@
+/* .parent .child span {
+  color: red;
+}
+.parent .title {
+  color: blue;
+}
+.parent p,
+.title {
+  color: green;
+  ===================================================================
+} */
+/* div {
+  max-width: 400px;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  background-color: #a42b2a;
+  text-transform: capitalize;
+  max-height: 20px;
+  overflow: hidden;
+} */

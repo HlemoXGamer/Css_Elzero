@@ -1,0 +1,60 @@
+/* div {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: blueviolet;
+  color: #fff;
+}
+.assign-1-shape-2 {
+  background-color: rgb(138 43 226 / 50%);
+}
+.assign-1-shape-3 {
+  background-color: rgb(138 43 226 / 10%);
+}
+=============================================================================================================
+*/
+/* div {
+  width: 400px;
+  height: 400px;
+  background-image: url(css.png);
+  color: #fff;
+  border: 2px solid black;
+  margin: 20px 10px;
+}
+.assign-2-shape-1 {
+  background-repeat: none;
+}
+.assign-2-shape-2 {
+  background-repeat: repeat-y;
+}
+.assign-2-shape-3 {
+  background-repeat: repeat-x;
+==============================================================================================================
+} */
+/* div {
+  width: 400px;
+  height: 400px;
+  background-image: url(css.png);
+  color: #fff;
+  border: 2px solid black;
+  margin: 20px 10px;
+  background-color: #eee;
+}
+.assign-4-shape-1 {
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.assign-4-shape-2 {
+  background-repeat: repeat-y;
+  background-size: 80%;
+  background-position: right;
+}
+.assign-4-shape-3 {
+  background-repeat: repeat-x;
+  background-size: 80%;
+  background-position: bottom;
+}
+.assign-4-shape-4 {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+} */

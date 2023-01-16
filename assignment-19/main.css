@@ -1,0 +1,147 @@
+/* @media print {
+  .assign-one {
+    font-size: 40px;
+  }
+} */
+
+/* .parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.3em;
+}
+.parent div {
+  background-color: #eee;
+  width: 24%;
+  text-transform: capitalize;
+  text-align: center;
+  display: inline-block;
+}
+.parent div h2 {
+  color: #119e90;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .parent {
+    justify-content: center;
+  }
+  .parent div {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .parent div h2 {
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  .parent {
+    justify-content: space-around;
+  }
+  .parent div {
+    width: 49%;
+    margin-top: 10px;
+  }
+  .parent div h2 {
+    color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parent {
+    justify-content: space-around;
+  }
+  .parent div {
+    width: 24%;
+    margin-top: 10px;
+  }
+  .parent div h2 {
+    color: #119e90;
+  }
+} */
+
+/* .parent {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  font-size: 1.3em;
+  gap: 20px 20px;
+}
+.parent div:first-child {
+  width: 100%;
+  grid-area: span 1 / span 2;
+}
+.parent div:nth-child(2) {
+  width: 100%;
+}
+.parent div:nth-child(3) {
+  width: 100%;
+}
+.parent div:nth-child(4) {
+  width: 100%;
+  grid-area: span 1 / span 2;
+}
+.parent div {
+  background-color: #eee;
+  text-transform: capitalize;
+  text-align: center;
+}
+.parent div h2 {
+  color: #119e90;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .parent {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr !important;
+    gap: 20px 0;
+  }
+  .parent div {
+    width: 100%;
+    grid-area: span 1 / span 2;
+  }
+  .parent div h2 {
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  .parent {
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  }
+  .parent div:first-child {
+    width: 100%;
+    grid-area: span 1 / span 3;
+  }
+  .parent div:nth-child(4) {
+    width: 100%;
+    grid-area: 2 / 3;
+  }
+  .parent div {
+  }
+  .parent div h2 {
+    color: red;
+  }
+}
+@media (min-width: 1200px) {
+  .parent {
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  }
+  .parent div:first-child {
+    width: 100%;
+    grid-area: span 1 / span 2;
+  }
+  .parent div:nth-child(2) {
+    width: 100%;
+  }
+  .parent div:nth-child(3) {
+    width: 100%;
+  }
+  .parent div:nth-child(4) {
+    width: 100%;
+    grid-area: span 1 / span 2;
+  }
+  .parent div h2 {
+    color: #119e90;
+  }
+} */
